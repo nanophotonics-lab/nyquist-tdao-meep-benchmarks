@@ -1,0 +1,113 @@
+{
+  "seed": 20260909,
+  "repetitions": 5,
+  "threshold_percent": 5,
+  "conditions": [
+    "original M1",
+    "original M24",
+    "corrected M1",
+    "corrected M24"
+  ],
+  "schedule": [
+    [
+      1,
+      "corrected",
+      1
+    ],
+    [
+      1,
+      "original",
+      24
+    ],
+    [
+      1,
+      "corrected",
+      24
+    ],
+    [
+      1,
+      "original",
+      1
+    ],
+    [
+      2,
+      "original",
+      24
+    ],
+    [
+      2,
+      "corrected",
+      24
+    ],
+    [
+      2,
+      "corrected",
+      1
+    ],
+    [
+      2,
+      "original",
+      1
+    ],
+    [
+      3,
+      "corrected",
+      1
+    ],
+    [
+      3,
+      "original",
+      1
+    ],
+    [
+      3,
+      "corrected",
+      24
+    ],
+    [
+      3,
+      "original",
+      24
+    ],
+    [
+      4,
+      "original",
+      1
+    ],
+    [
+      4,
+      "corrected",
+      24
+    ],
+    [
+      4,
+      "original",
+      24
+    ],
+    [
+      4,
+      "corrected",
+      1
+    ],
+    [
+      5,
+      "original",
+      24
+    ],
+    [
+      5,
+      "original",
+      1
+    ],
+    [
+      5,
+      "corrected",
+      1
+    ],
+    [
+      5,
+      "corrected",
+      24
+    ]
+  ]
+}

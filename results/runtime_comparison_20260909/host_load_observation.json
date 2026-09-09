@@ -1,0 +1,37 @@
+{
+  "captured_at": "2026-09-09T02:38:35.2916881Z",
+  "note": "Sequential instantaneous host observations, not full-campaign load telemetry. Process PercentProcessorTime is summed across logical processors.",
+  "processor": [
+    {
+      "Name": "AMD Ryzen 9 9950X 16-Core Processor            ",
+      "LoadPercentage": 26,
+      "NumberOfLogicalProcessors": 32
+    }
+  ],
+  "active_processes": [
+    {
+      "Name": "ChatGPT#6",
+      "PercentProcessorTime": 206
+    },
+    {
+      "Name": "OneDrive",
+      "PercentProcessorTime": 97
+    },
+    {
+      "Name": "vmmemWSL",
+      "PercentProcessorTime": 91
+    },
+    {
+      "Name": "pwsh#1",
+      "PercentProcessorTime": 34
+    },
+    {
+      "Name": "dwm",
+      "PercentProcessorTime": 22
+    },
+    {
+      "Name": "cowork-svc",
+      "PercentProcessorTime": 11
+    }
+  ]
+}

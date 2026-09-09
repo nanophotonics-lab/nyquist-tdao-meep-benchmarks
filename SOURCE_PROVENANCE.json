@@ -1,0 +1,9 @@
+{
+  "original_archive": "figure_abc_meep_simulation_code_20260814.tar.gz",
+  "original_archive_sha256": "536f3ca8c69ab5f1137584d344d80a6eac1a5959cc1f95dfaded8625aef0d032",
+  "input_archive_file_count": 355,
+  "numerical_sources_sha256": {
+    "MEEP_TD_runtime_after_source_benchmark.py": "48393fd518410dc22bf3d8c90ab194c919521563f32680104c77b20df6cc0004",
+    "teep/tda_objective.py": "c2661059ca9aeba7be47927658684dc4d64808ccf388735e2d0a0dec13ef1a47"
+  }
+}

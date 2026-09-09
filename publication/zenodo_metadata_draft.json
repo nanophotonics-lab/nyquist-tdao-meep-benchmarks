@@ -1,0 +1,20 @@
+{
+  "status": "DRAFT_ONLY_NOT_SUBMITTED",
+  "title": "Meep runtime benchmarks for Nyquist-sampled time-domain adjoint FDTD",
+  "upload_type": "software",
+  "publication_date": "2026-09-09",
+  "description": "Controlled computational benchmark characterizing source duration, forward DFT-monitor overhead, and adjoint runtime at a fixed design configuration. Includes simulation code, archived data, repeated timing comparisons, and supporting diagnostics. Full device-optimization workflows are outside the scope of this archive.",
+  "creators": [
+    {
+      "name": "Park, Mingyu",
+      "affiliation": "Hanyang University"
+    }
+  ],
+  "related_repository": "https://github.com/nanophotonics-lab/nyquist-tdao-meep-benchmarks",
+  "license": null,
+  "doi": null,
+  "requires_before_submission": [
+    "Select a rights-compatible license; the supplied archive had none",
+    "Archive the intended source snapshot in the authors' Zenodo account"
+  ]
+}

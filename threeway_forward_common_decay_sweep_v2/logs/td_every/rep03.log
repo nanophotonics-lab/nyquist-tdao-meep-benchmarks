@@ -1,0 +1,37 @@
+THREEWAY_FORWARD_SUMMARY_BEGIN
+-----------
+Initializing structure...
+time for choose_chunkdivision = 0.000215054 s
+Working in 2D dimensions.
+Computational cell is 6.6 x 5.4 x 0 with resolution 100
+     block, center = (0,-1.65,0)
+          size (5,0.2,0)
+          axes (1,0,0), (0,1,0), (0,0,1)
+time for set_epsilon = 0.194789 s
+-----------
+field decay(t = 10.005): 0.02764637052122116 / 0.02764637052122116 = 1.0
+on time step 3318 (time=16.59), 0.00120564 s/step
+field decay(t = 20.01): 0.3082529391627392 / 0.3082529391627392 = 1.0
+field decay(t = 30.015): 5.783104334573195e-05 / 0.3082529391627392 = 0.00018760905736311763
+on time step 6660 (time=33.3), 0.001197 s/step
+field decay(t = 40.02): 5.4666095280480904e-06 / 0.3082529391627392 = 1.7734168384237353e-05
+on time step 9995 (time=49.975), 0.00119967 s/step
+field decay(t = 50.025): 4.6382576465209883e-07 / 0.3082529391627392 = 1.504692107435921e-06
+field decay(t = 60.03): 5.2500065272769244e-08 / 0.3082529391627392 = 1.7031488950394836e-07
+on time step 13322 (time=66.61), 0.00120235 s/step
+field decay(t = 70.035): 6.213486703206159e-09 / 0.3082529391627392 = 2.0157104487252943e-08
+run 0 finished at t = 70.035 (14007 timesteps)
+CONDITION = td_every
+METHOD = TD every-step
+RUNTIME_SECONDS = 17.021435638000185
+STEPS = 14007
+CALLBACK_STEPS = 14008
+TIME_PER_STEP_MS = 1.2152092266723913
+FIELD_SAMPLES = 14008
+OBJECTIVE = 0.24546866593449115
+PEAK_RSS_MB = 942.5234375
+CPU_AFFINITY = 8
+REPETITION = 3
+EXECUTION_ORDER = 9
+TERMINATION = common_field_decay
+THREEWAY_FORWARD_SUMMARY_END

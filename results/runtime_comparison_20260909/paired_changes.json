@@ -1,0 +1,27 @@
+[
+  {
+    "repetition": 1,
+    "adjoint_percent": 5.221661507815845,
+    "total_percent": 2.351710324242795
+  },
+  {
+    "repetition": 2,
+    "adjoint_percent": 8.993926659876973,
+    "total_percent": 4.832078901527392
+  },
+  {
+    "repetition": 3,
+    "adjoint_percent": -0.7283221370191661,
+    "total_percent": -2.5955430250243827
+  },
+  {
+    "repetition": 4,
+    "adjoint_percent": 5.961865002630007,
+    "total_percent": 4.4954381351222095
+  },
+  {
+    "repetition": 5,
+    "adjoint_percent": 5.2273305092940925,
+    "total_percent": 2.232187854353862
+  }
+]

@@ -1,0 +1,68 @@
+TD_REPEAT_SUMMARY_BEGIN
+-----------
+Initializing structure...
+time for choose_chunkdivision = 0.000216961 s
+Working in 2D dimensions.
+Computational cell is 6.6 x 5.4 x 0 with resolution 100
+     block, center = (0,-1.65,0)
+          size (5,0.2,0)
+          axes (1,0,0), (0,1,0), (0,0,1)
+time for set_epsilon = 0.197046 s
+-----------
+Meep progress: 17.045/67.5 = 25.3% done in 4.0s, 11.8s to go
+on time step 3411 (time=17.055), 0.00117283 s/step
+Meep progress: 34.15/67.5 = 50.6% done in 8.0s, 7.8s to go
+on time step 6832 (time=34.16), 0.00116943 s/step
+Meep progress: 50.785000000000004/67.5 = 75.2% done in 12.0s, 3.9s to go
+on time step 10160 (time=50.8), 0.00120224 s/step
+run 0 finished at t = 67.5 (13500 timesteps)
+-----------
+Initializing structure...
+time for choose_chunkdivision = 0.000228882 s
+Working in 2D dimensions.
+Computational cell is 6.6 x 5.4 x 0 with resolution 100
+     block, center = (0,-1.65,0)
+          size (5,0.2,0)
+          axes (1,0,0), (0,1,0), (0,0,1)
+time for set_epsilon = 0.192766 s
+-----------
+Meep progress: 16.185/67.5 = 24.0% done in 4.0s, 12.7s to go
+on time step 3239 (time=16.195), 0.00123516 s/step
+Meep progress: 32.49/67.5 = 48.1% done in 8.0s, 8.6s to go
+on time step 6500 (time=32.5), 0.00122673 s/step
+Meep progress: 48.745000000000005/67.5 = 72.2% done in 12.0s, 4.6s to go
+on time step 9751 (time=48.755), 0.00123073 s/step
+Meep progress: 64.925/67.5 = 96.2% done in 16.0s, 0.6s to go
+on time step 12987 (time=64.935), 0.00123626 s/step
+run 0 finished at t = 67.5 (13500 timesteps)
+METHOD = time-domain
+TERMINATION = fixed
+DECAY_BY = 0.0
+MINIMUM_RUN_TIME = 67.5
+MAXIMUM_RUN_TIME = 67.5
+DECAY_CHECK_INTERVAL = 10.0
+FORWARD_CAP_HIT = 0
+AFTER_SOURCES_TIME_MEEP_UNITS = 50.0
+SAMPLING_INTERVAL = 1
+FOM = 0.24546866588755545
+FORWARD_S = 16.132293344000118
+ADJOINT_S = 16.83061886700034
+EVAL_TOTAL_S = 32.96291221100046
+ITERATION_TOTAL_S = 33.35648625900012
+MAXRSS_MB = 1668.0234375
+NATIVE_SAMPLER_AVAILABLE = 1
+DT = 0.005
+FORWARD_ACTUAL_TIME_MEEP_UNITS = 67.5
+ADJOINT_RUN_TIME_MEEP_UNITS = 67.5
+FORWARD_STEPS = 13501
+FORWARD_FIELD_SAMPLES = 13501
+ADJOINT_STEPS = 13501
+ADJOINT_FIELD_SAMPLES = 13501
+GRAD_NORM = 0.04921380379193007
+REPETITION = 2
+EXECUTION_ORDER = 8
+CPU_AFFINITY = 8
+NUM_THREADS = 1
+MACHINE_NAME = DESKTOP-T9UAKPN
+PYTHON_VERSION = 3.9.23
+TD_REPEAT_SUMMARY_END

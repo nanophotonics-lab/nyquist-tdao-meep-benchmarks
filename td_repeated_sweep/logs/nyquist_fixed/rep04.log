@@ -1,0 +1,62 @@
+TD_REPEAT_SUMMARY_BEGIN
+-----------
+Initializing structure...
+time for choose_chunkdivision = 0.000221968 s
+Working in 2D dimensions.
+Computational cell is 6.6 x 5.4 x 0 with resolution 100
+     block, center = (0,-1.65,0)
+          size (5,0.2,0)
+          axes (1,0,0), (0,1,0), (0,0,1)
+time for set_epsilon = 0.204821 s
+-----------
+Meep progress: 29.76/67.5 = 44.1% done in 4.0s, 5.1s to go
+on time step 5955 (time=29.775), 0.000671786 s/step
+Meep progress: 59.785000000000004/67.5 = 88.6% done in 8.0s, 1.0s to go
+on time step 11960 (time=59.8), 0.000666174 s/step
+run 0 finished at t = 67.5 (13500 timesteps)
+-----------
+Initializing structure...
+time for choose_chunkdivision = 0.00022006 s
+Working in 2D dimensions.
+Computational cell is 6.6 x 5.4 x 0 with resolution 100
+     block, center = (0,-1.65,0)
+          size (5,0.2,0)
+          axes (1,0,0), (0,1,0), (0,0,1)
+time for set_epsilon = 0.201578 s
+-----------
+Meep progress: 27.815/67.5 = 41.2% done in 4.0s, 5.7s to go
+on time step 5566 (time=27.83), 0.000718696 s/step
+Meep progress: 55.050000000000004/67.5 = 81.6% done in 8.0s, 1.8s to go
+on time step 11014 (time=55.07), 0.00073434 s/step
+run 0 finished at t = 67.5 (13500 timesteps)
+METHOD = time-domain
+TERMINATION = fixed
+DECAY_BY = 0.0
+MINIMUM_RUN_TIME = 67.5
+MAXIMUM_RUN_TIME = 67.5
+DECAY_CHECK_INTERVAL = 10.0
+FORWARD_CAP_HIT = 0
+AFTER_SOURCES_TIME_MEEP_UNITS = 50.0
+SAMPLING_INTERVAL = 24
+FOM = 0.24546866588755545
+FORWARD_S = 9.23704140799964
+ADJOINT_S = 10.014954411999952
+EVAL_TOTAL_S = 19.251995819999593
+ITERATION_TOTAL_S = 19.32344451200015
+MAXRSS_MB = 183.546875
+NATIVE_SAMPLER_AVAILABLE = 1
+DT = 0.005
+FORWARD_ACTUAL_TIME_MEEP_UNITS = 67.5
+ADJOINT_RUN_TIME_MEEP_UNITS = 67.5
+FORWARD_STEPS = 13501
+FORWARD_FIELD_SAMPLES = 563
+ADJOINT_STEPS = 13501
+ADJOINT_FIELD_SAMPLES = 563
+GRAD_NORM = 0.03959545239815834
+REPETITION = 4
+EXECUTION_ORDER = 13
+CPU_AFFINITY = 8
+NUM_THREADS = 1
+MACHINE_NAME = DESKTOP-T9UAKPN
+PYTHON_VERSION = 3.9.23
+TD_REPEAT_SUMMARY_END

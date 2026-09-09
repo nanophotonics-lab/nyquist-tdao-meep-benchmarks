@@ -1,0 +1,74 @@
+TD_REPEAT_SUMMARY_BEGIN
+-----------
+Initializing structure...
+time for choose_chunkdivision = 0.000251055 s
+Working in 2D dimensions.
+Computational cell is 6.6 x 5.4 x 0 with resolution 100
+     block, center = (0,-1.65,0)
+          size (5,0.2,0)
+          axes (1,0,0), (0,1,0), (0,0,1)
+time for set_epsilon = 0.204935 s
+-----------
+field decay(t = 10.005): 0.02764637052122116 / 0.02764637052122116 = 1.0
+on time step 3304 (time=16.52), 0.00121077 s/step
+field decay(t = 20.01): 0.3082529391627392 / 0.3082529391627392 = 1.0
+field decay(t = 30.015): 5.783104334573195e-05 / 0.3082529391627392 = 0.00018760905736311763
+on time step 6576 (time=32.88), 0.00122257 s/step
+field decay(t = 40.02): 5.4666095280480904e-06 / 0.3082529391627392 = 1.7734168384237353e-05
+on time step 9795 (time=48.975), 0.00124266 s/step
+field decay(t = 50.025): 4.6382576465209883e-07 / 0.3082529391627392 = 1.504692107435921e-06
+field decay(t = 60.03): 5.2500065272769244e-08 / 0.3082529391627392 = 1.7031488950394836e-07
+on time step 13004 (time=65.02), 0.00124667 s/step
+field decay(t = 70.035): 6.213486703206159e-09 / 0.3082529391627392 = 2.0157104487252943e-08
+run 0 finished at t = 70.035 (14007 timesteps)
+-----------
+Initializing structure...
+time for choose_chunkdivision = 0.000225067 s
+Working in 2D dimensions.
+Computational cell is 6.6 x 5.4 x 0 with resolution 100
+     block, center = (0,-1.65,0)
+          size (5,0.2,0)
+          axes (1,0,0), (0,1,0), (0,0,1)
+time for set_epsilon = 0.201783 s
+-----------
+Meep progress: 15.13/70.03500366210938 = 21.6% done in 4.0s, 14.5s to go
+on time step 3028 (time=15.14), 0.00132133 s/step
+Meep progress: 30.475/70.03500366210938 = 43.5% done in 8.0s, 10.4s to go
+on time step 6097 (time=30.485), 0.00130337 s/step
+Meep progress: 45.735/70.03500366210938 = 65.3% done in 12.0s, 6.4s to go
+on time step 9149 (time=45.745), 0.00131101 s/step
+Meep progress: 60.895/70.03500366210938 = 86.9% done in 16.0s, 2.4s to go
+on time step 12181 (time=60.905), 0.00131935 s/step
+run 0 finished at t = 70.035 (14007 timesteps)
+METHOD = time-domain
+TERMINATION = moderate
+DECAY_BY = 0.0001
+MINIMUM_RUN_TIME = 67.5
+MAXIMUM_RUN_TIME = 2000.0
+DECAY_CHECK_INTERVAL = 10.0
+FORWARD_CAP_HIT = 0
+AFTER_SOURCES_TIME_MEEP_UNITS = 50.0
+SAMPLING_INTERVAL = 1
+FOM = 0.24546866593449115
+FORWARD_S = 17.449864247999358
+ADJOINT_S = 18.62506472200039
+EVAL_TOTAL_S = 36.074928969999746
+ITERATION_TOTAL_S = 36.50064398500035
+MAXRSS_MB = 1726.24609375
+NATIVE_SAMPLER_AVAILABLE = 1
+DT = 0.005
+FORWARD_ACTUAL_TIME_MEEP_UNITS = 70.03500366210938
+ADJOINT_RUN_TIME_MEEP_UNITS = 70.03500366210938
+FORWARD_STEPS = 14008
+FORWARD_FIELD_SAMPLES = 14008
+ADJOINT_STEPS = 14008
+ADJOINT_FIELD_SAMPLES = 14008
+GRAD_NORM = 0.04921397704018253
+GRADIENT_OUTPUT_PATH = td_sampling_convergence_sweep/gradients/interval_001/rep05.npy
+REPETITION = 5
+EXECUTION_ORDER = 34
+CPU_AFFINITY = 8
+NUM_THREADS = 1
+MACHINE_NAME = DESKTOP-T9UAKPN
+PYTHON_VERSION = 3.9.23
+TD_REPEAT_SUMMARY_END

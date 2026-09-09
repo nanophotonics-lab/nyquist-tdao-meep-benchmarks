@@ -1,0 +1,26 @@
+method,pass,N_f,sampling_interval,runtime_seconds,actual_fdtd_steps,runtime_per_fdtd_step_ms,statistic,notes
+FD with DFT,forward,2,,9.045320230,14007,0.645771,minimum of five,DFT frequency count=N_f
+FD with DFT,forward,5,,8.993435287,14007,0.642067,minimum of five,DFT frequency count=N_f
+FD with DFT,forward,10,,9.081514040,14007,0.648355,minimum of five,DFT frequency count=N_f
+FD with DFT,forward,15,,9.089198008,14007,0.648904,minimum of five,DFT frequency count=N_f
+FD with DFT,forward,20,,9.131499421,14007,0.651924,minimum of five,DFT frequency count=N_f
+FD with DFT,forward,30,,9.103579460,14007,0.649931,minimum of five,DFT frequency count=N_f
+FD with DFT,forward,50,,9.213095185,14007,0.657749,minimum of five,DFT frequency count=N_f
+FD with DFT,forward,100,,9.349583535,14007,0.667494,minimum of five,DFT frequency count=N_f
+FD with DFT,forward,150,,9.576596309,14007,0.683701,minimum of five,DFT frequency count=N_f
+FD with DFT,forward,200,,9.715404297,14007,0.693611,minimum of five,DFT frequency count=N_f
+FD filtered source,adjoint,2,,8.860847500,14007,0.632601,minimum of five,FilteredSource basis count=N_f
+FD filtered source,adjoint,5,,9.166621461,14007,0.654431,minimum of five,FilteredSource basis count=N_f
+FD filtered source,adjoint,10,,10.172331047,14007,0.726232,minimum of five,FilteredSource basis count=N_f
+FD filtered source,adjoint,15,,12.079149555,14007,0.862365,minimum of five,FilteredSource basis count=N_f
+FD filtered source,adjoint,20,,14.773549456,14007,1.054726,minimum of five,FilteredSource basis count=N_f
+FD filtered source,adjoint,30,,24.048212224,16008,1.502262,minimum of five,FilteredSource basis count=N_f
+FD filtered source,adjoint,50,,57.170103381,26013,2.197751,minimum of five,FilteredSource basis count=N_f
+FD filtered source,adjoint,100,,210.016925742,50025,4.198239,minimum of five,FilteredSource basis count=N_f
+FD filtered source,adjoint,150,,473.742008458,76038,6.230332,minimum of five,FilteredSource basis count=N_f
+FD filtered source,adjoint,200,,870.633697502,100050,8.701986,minimum of five,FilteredSource basis count=N_f
+FD without DFT baseline,forward,0,,9.024827127,14007,0.644308,N_f_label=200 minimum of five,physical N_f=0; source comparison label=200
+TD every-step storage,forward,,1,17.449864248,14007,1.245796,minimum of five,N_f-independent
+TD every-step storage,adjoint,,1,18.498892304,14007,1.320689,minimum of five,N_f-independent
+TD Nyquist storage,forward,,24,10.047360949,14007,0.717310,minimum of five,N_f-independent
+TD Nyquist storage,adjoint,,24,10.785747263,14007,0.770026,minimum of five,N_f-independent

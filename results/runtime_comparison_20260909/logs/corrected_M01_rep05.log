@@ -1,0 +1,44 @@
+-----------
+Initializing structure...
+time for choose_chunkdivision = 0.000266075 s
+Working in 2D dimensions.
+Computational cell is 6.6 x 5.4 x 0 with resolution 100
+     block, center = (0,-1.65,0)
+          size (5,0.2,0)
+          axes (1,0,0), (0,1,0), (0,0,1)
+time for set_epsilon = 0.217468 s
+-----------
+field decay(t = 10.005): 0.02764637052122116 / 0.02764637052122116 = 1.0
+on time step 3047 (time=15.235), 0.00131309 s/step
+field decay(t = 20.01): 0.3082529391627392 / 0.3082529391627392 = 1.0
+field decay(t = 30.015): 5.783104334573195e-05 / 0.3082529391627392 = 0.00018760905736311763
+on time step 6255 (time=31.275), 0.00124692 s/step
+field decay(t = 40.02): 5.4666095280480904e-06 / 0.3082529391627392 = 1.7734168384237353e-05
+on time step 9380 (time=46.9), 0.00128013 s/step
+field decay(t = 50.025): 4.6382576465209883e-07 / 0.3082529391627392 = 1.504692107435921e-06
+field decay(t = 60.03): 5.2500065272769244e-08 / 0.3082529391627392 = 1.7031488950394836e-07
+on time step 12622 (time=63.11), 0.00123407 s/step
+field decay(t = 70.035): 6.213486703206159e-09 / 0.3082529391627392 = 2.0157104487252943e-08
+run 0 finished at t = 70.035 (14007 timesteps)
+-----------
+Initializing structure...
+time for choose_chunkdivision = 0.000250101 s
+Working in 2D dimensions.
+Computational cell is 6.6 x 5.4 x 0 with resolution 100
+     block, center = (0,-1.65,0)
+          size (5,0.2,0)
+          axes (1,0,0), (0,1,0), (0,0,1)
+time for set_epsilon = 0.21281 s
+-----------
+Meep progress: 21.21/70.03500366210938 = 30.3% done in 4.0s, 9.2s to go
+on time step 4244 (time=21.22), 0.000942644 s/step
+Meep progress: 36.36/70.03500366210938 = 51.9% done in 8.0s, 7.4s to go
+on time step 7275 (time=36.375), 0.00132013 s/step
+Meep progress: 51.93/70.03500366210938 = 74.1% done in 12.0s, 4.2s to go
+on time step 10390 (time=51.95), 0.00128441 s/step
+Meep progress: 67.19500000000001/70.03500366210938 = 95.9% done in 16.0s, 0.7s to go
+on time step 13442 (time=67.21), 0.00131066 s/step
+run 0 finished at t = 70.035 (14007 timesteps)
+RELEASE_BENCHMARK_RESULT {"method": "time-domain", "termination": "moderate", "decay_by": 0.0001, "minimum_run_time": 67.5, "maximum_run_time": 2000.0, "decay_check_interval": 10.0, "forward_cap_hit": 0, "after_sources_time_meep_units": 50, "sampling_interval": 1, "fom": 0.24546866593449115, "forward_s": 18.043672550999986, "adjoint_s": 18.38654249199999, "eval_total_s": 36.430215042999976, "iteration_total_s": 36.89099611200004, "maxrss_MB": 1730.0234375, "native_sampler_available": 1, "sampler_backend": "native_fastmeep_sample", "gradient_implementation": "aligned_fine_dt_adjoint_v1", "dt": 0.005, "forward_actual_time_meep_units": 70.03500366210938, "adjoint_run_time_meep_units": 70.03500366210938, "forward_steps": 14008, "forward_field_samples": 14008, "adjoint_steps": 14008, "adjoint_field_samples": 14008, "grad_norm": 0.04921397704204624, "gradient_output_path": "corrected_M01_rep05.npy", "version": "corrected", "interval": 1, "relative_l2_vs_original_M1": 1.3837920698558464e-09, "cosine_vs_original_M1": 0.9999999999999998, "python": "3.9.23", "meep": "1.30.0", "numpy": "2.0.2", "cpu": 8, "threads": 1}
+
+Elapsed run time = 35.5623 s

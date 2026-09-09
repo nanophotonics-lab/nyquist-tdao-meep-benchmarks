@@ -1,0 +1,550 @@
+[
+  {
+    "M": 1,
+    "variant": "legacy",
+    "remainder_steps": 0,
+    "relative_l2_vs_M1": 2.098017222387035e-08,
+    "cosine_vs_M1": 1.0000000000000002,
+    "directional_derivative": 0.049213978068453866,
+    "relative_error_vs_archived_directional_fd": 0.009831440332625481,
+    "relative_l2_vs_same_M_archive": 2.098017222387035e-08
+  },
+  {
+    "M": 1,
+    "variant": "alignment_only",
+    "remainder_steps": 0,
+    "relative_l2_vs_M1": 2.098017222387035e-08,
+    "cosine_vs_M1": 1.0000000000000002,
+    "directional_derivative": 0.049213978068453866,
+    "relative_error_vs_archived_directional_fd": 0.009831440332625481
+  },
+  {
+    "M": 1,
+    "variant": "fine_derivative_only",
+    "remainder_steps": 0,
+    "relative_l2_vs_M1": 2.098017222387035e-08,
+    "cosine_vs_M1": 1.0000000000000002,
+    "directional_derivative": 0.049213978068453866,
+    "relative_error_vs_archived_directional_fd": 0.009831440332625481
+  },
+  {
+    "M": 1,
+    "variant": "both_forward_derivative",
+    "remainder_steps": 0,
+    "relative_l2_vs_M1": 2.098017222387035e-08,
+    "cosine_vs_M1": 1.0000000000000002,
+    "directional_derivative": 0.049213978068453866,
+    "relative_error_vs_archived_directional_fd": 0.009831440332625481
+  },
+  {
+    "M": 1,
+    "variant": "aligned_adjoint_derivative",
+    "remainder_steps": 0,
+    "relative_l2_vs_M1": 1.383792161455434e-09,
+    "cosine_vs_M1": 1.0,
+    "directional_derivative": 0.04921397704204623,
+    "relative_error_vs_archived_directional_fd": 0.009831460983599327
+  },
+  {
+    "M": 2,
+    "variant": "legacy",
+    "remainder_steps": 1,
+    "relative_l2_vs_M1": 0.05809289158155458,
+    "cosine_vs_M1": 0.9983316600991837,
+    "directional_derivative": 0.049364068722461976,
+    "relative_error_vs_archived_directional_fd": 0.006811667241085726,
+    "relative_l2_vs_same_M_archive": 2.2231191611929113e-08
+  },
+  {
+    "M": 2,
+    "variant": "alignment_only",
+    "remainder_steps": 1,
+    "relative_l2_vs_M1": 0.0014598110278222509,
+    "cosine_vs_M1": 0.9999999996789212,
+    "directional_derivative": 0.04914214472741128,
+    "relative_error_vs_archived_directional_fd": 0.01127670280942214
+  },
+  {
+    "M": 2,
+    "variant": "fine_derivative_only",
+    "remainder_steps": 1,
+    "relative_l2_vs_M1": 0.058280262916577286,
+    "cosine_vs_M1": 0.9983312254487197,
+    "directional_derivative": 0.04943617746039236,
+    "relative_error_vs_archived_directional_fd": 0.005360863872241042
+  },
+  {
+    "M": 2,
+    "variant": "both_forward_derivative",
+    "remainder_steps": 1,
+    "relative_l2_vs_M1": 2.1078172093968638e-08,
+    "cosine_vs_M1": 1.0,
+    "directional_derivative": 0.04921397806980594,
+    "relative_error_vs_archived_directional_fd": 0.009831440305422266
+  },
+  {
+    "M": 2,
+    "variant": "aligned_adjoint_derivative",
+    "remainder_steps": 1,
+    "relative_l2_vs_M1": 1.8243869014621391e-09,
+    "cosine_vs_M1": 1.0,
+    "directional_derivative": 0.04921397704155705,
+    "relative_error_vs_archived_directional_fd": 0.009831460993441427
+  },
+  {
+    "M": 4,
+    "variant": "legacy",
+    "remainder_steps": 3,
+    "relative_l2_vs_M1": 0.1723162571359257,
+    "cosine_vs_M1": 0.9854065008213974,
+    "directional_derivative": 0.04908830135600276,
+    "relative_error_vs_archived_directional_fd": 0.01236001319414765,
+    "relative_l2_vs_same_M_archive": 2.2443383817808313e-08
+  },
+  {
+    "M": 4,
+    "variant": "alignment_only",
+    "remainder_steps": 3,
+    "relative_l2_vs_M1": 0.007286297171192617,
+    "cosine_vs_M1": 0.9999999919350444,
+    "directional_derivative": 0.04885544306499045,
+    "relative_error_vs_archived_directional_fd": 0.017045043091498374
+  },
+  {
+    "M": 4,
+    "variant": "fine_derivative_only",
+    "remainder_steps": 3,
+    "relative_l2_vs_M1": 0.17365846902612844,
+    "cosine_vs_M1": 0.9854008534904692,
+    "directional_derivative": 0.049447795487067216,
+    "relative_error_vs_archived_directional_fd": 0.005127113112999087
+  },
+  {
+    "M": 4,
+    "variant": "both_forward_derivative",
+    "remainder_steps": 3,
+    "relative_l2_vs_M1": 3.956592815284585e-08,
+    "cosine_vs_M1": 0.9999999999999997,
+    "directional_derivative": 0.04921397805879744,
+    "relative_error_vs_archived_directional_fd": 0.009831440526909548
+  },
+  {
+    "M": 4,
+    "variant": "aligned_adjoint_derivative",
+    "remainder_steps": 3,
+    "relative_l2_vs_M1": 2.4713090454241385e-09,
+    "cosine_vs_M1": 1.0,
+    "directional_derivative": 0.049213977039055445,
+    "relative_error_vs_archived_directional_fd": 0.009831461043772832
+  },
+  {
+    "M": 8,
+    "variant": "legacy",
+    "remainder_steps": 7,
+    "relative_l2_vs_M1": 0.38939515773395905,
+    "cosine_vs_M1": 0.9255610519375553,
+    "directional_derivative": 0.046307619780668,
+    "relative_error_vs_archived_directional_fd": 0.06830638409131605,
+    "relative_l2_vs_same_M_archive": 2.2799982331808865e-08
+  },
+  {
+    "M": 8,
+    "variant": "alignment_only",
+    "remainder_steps": 7,
+    "relative_l2_vs_M1": 0.030387607937962715,
+    "cosine_vs_M1": 0.9999998549909592,
+    "directional_derivative": 0.04771870281121482,
+    "relative_error_vs_archived_directional_fd": 0.03991587174573446
+  },
+  {
+    "M": 8,
+    "variant": "fine_derivative_only",
+    "remainder_steps": 7,
+    "relative_l2_vs_M1": 0.3981405484218666,
+    "cosine_vs_M1": 0.9255139702473908,
+    "directional_derivative": 0.04775109449339831,
+    "relative_error_vs_archived_directional_fd": 0.039264162078041724
+  },
+  {
+    "M": 8,
+    "variant": "both_forward_derivative",
+    "remainder_steps": 7,
+    "relative_l2_vs_M1": 6.228585993162974e-08,
+    "cosine_vs_M1": 0.9999999999999983,
+    "directional_derivative": 0.04921397807165833,
+    "relative_error_vs_archived_directional_fd": 0.009831440268152742
+  },
+  {
+    "M": 8,
+    "variant": "aligned_adjoint_derivative",
+    "remainder_steps": 7,
+    "relative_l2_vs_M1": 3.878245036960202e-07,
+    "cosine_vs_M1": 0.9999999999999244,
+    "directional_derivative": 0.04921397704451632,
+    "relative_error_vs_archived_directional_fd": 0.009831460933901881
+  },
+  {
+    "M": 12,
+    "variant": "legacy",
+    "remainder_steps": 3,
+    "relative_l2_vs_M1": 0.17354683361907577,
+    "cosine_vs_M1": 0.9854554965940512,
+    "directional_derivative": 0.04608428939375908,
+    "relative_error_vs_archived_directional_fd": 0.07279971578720075,
+    "relative_l2_vs_same_M_archive": 5.434874217895426e-08
+  },
+  {
+    "M": 12,
+    "variant": "alignment_only",
+    "remainder_steps": 3,
+    "relative_l2_vs_M1": 0.06816933737001941,
+    "cosine_vs_M1": 0.9999992281406638,
+    "directional_derivative": 0.04585957673257062,
+    "relative_error_vs_archived_directional_fd": 0.07732085837312441
+  },
+  {
+    "M": 12,
+    "variant": "fine_derivative_only",
+    "remainder_steps": 3,
+    "relative_l2_vs_M1": 0.17365846772504256,
+    "cosine_vs_M1": 0.9854008536691549,
+    "directional_derivative": 0.04944779543406135,
+    "relative_error_vs_archived_directional_fd": 0.005127114179459098
+  },
+  {
+    "M": 12,
+    "variant": "both_forward_derivative",
+    "remainder_steps": 3,
+    "relative_l2_vs_M1": 1.3787530749714977e-07,
+    "cosine_vs_M1": 0.9999999999999906,
+    "directional_derivative": 0.04921397800488991,
+    "relative_error_vs_archived_directional_fd": 0.009831441611510667
+  },
+  {
+    "M": 12,
+    "variant": "aligned_adjoint_derivative",
+    "remainder_steps": 3,
+    "relative_l2_vs_M1": 6.348246807331997e-07,
+    "cosine_vs_M1": 0.9999999999997984,
+    "directional_derivative": 0.049213977070129505,
+    "relative_error_vs_archived_directional_fd": 0.009831460418573277
+  },
+  {
+    "M": 16,
+    "variant": "legacy",
+    "remainder_steps": 7,
+    "relative_l2_vs_M1": 0.3782388567017954,
+    "cosine_vs_M1": 0.9257108149241958,
+    "directional_derivative": 0.04207010768099854,
+    "relative_error_vs_archived_directional_fd": 0.15356369140483148,
+    "relative_l2_vs_same_M_archive": 2.3031843973766887e-08
+  },
+  {
+    "M": 16,
+    "variant": "alignment_only",
+    "remainder_steps": 7,
+    "relative_l2_vs_M1": 0.11957621417601567,
+    "cosine_vs_M1": 0.9999974267261752,
+    "directional_derivative": 0.043329977016096824,
+    "relative_error_vs_archived_directional_fd": 0.12821554736396196
+  },
+  {
+    "M": 16,
+    "variant": "fine_derivative_only",
+    "remainder_steps": 7,
+    "relative_l2_vs_M1": 0.3981405478320537,
+    "cosine_vs_M1": 0.9255139703535847,
+    "directional_derivative": 0.04775109445308842,
+    "relative_error_vs_archived_directional_fd": 0.039264162889063
+  },
+  {
+    "M": 16,
+    "variant": "both_forward_derivative",
+    "remainder_steps": 7,
+    "relative_l2_vs_M1": 1.6428328559299886e-07,
+    "cosine_vs_M1": 0.9999999999999868,
+    "directional_derivative": 0.04921397805233325,
+    "relative_error_vs_archived_directional_fd": 0.009831440656966867
+  },
+  {
+    "M": 16,
+    "variant": "aligned_adjoint_derivative",
+    "remainder_steps": 7,
+    "relative_l2_vs_M1": 6.538786056820224e-07,
+    "cosine_vs_M1": 0.9999999999997861,
+    "directional_derivative": 0.04921397697094756,
+    "relative_error_vs_archived_directional_fd": 0.009831462414080444
+  },
+  {
+    "M": 20,
+    "variant": "legacy",
+    "remainder_steps": 7,
+    "relative_l2_vs_M1": 0.38416001172705805,
+    "cosine_vs_M1": 0.9258300360954318,
+    "directional_derivative": 0.03904729858133395,
+    "relative_error_vs_archived_directional_fd": 0.21438158603227048,
+    "relative_l2_vs_same_M_archive": 1.558435424037379e-08
+  },
+  {
+    "M": 20,
+    "variant": "alignment_only",
+    "remainder_steps": 7,
+    "relative_l2_vs_M1": 0.18318074200964227,
+    "cosine_vs_M1": 0.999993284067518,
+    "directional_derivative": 0.040200128208193874,
+    "relative_error_vs_archived_directional_fd": 0.1911870446444149
+  },
+  {
+    "M": 20,
+    "variant": "fine_derivative_only",
+    "remainder_steps": 7,
+    "relative_l2_vs_M1": 0.39814054626745576,
+    "cosine_vs_M1": 0.9255139709789137,
+    "directional_derivative": 0.04775109449745424,
+    "relative_error_vs_archived_directional_fd": 0.039264161996437806
+  },
+  {
+    "M": 20,
+    "variant": "both_forward_derivative",
+    "remainder_steps": 7,
+    "relative_l2_vs_M1": 1.834446108951875e-07,
+    "cosine_vs_M1": 0.9999999999999831,
+    "directional_derivative": 0.0492139780596168,
+    "relative_error_vs_archived_directional_fd": 0.009831440510424195
+  },
+  {
+    "M": 20,
+    "variant": "aligned_adjoint_derivative",
+    "remainder_steps": 7,
+    "relative_l2_vs_M1": 8.513815550726304e-07,
+    "cosine_vs_M1": 0.9999999999996376,
+    "directional_derivative": 0.0492139770384625,
+    "relative_error_vs_archived_directional_fd": 0.009831461055702631
+  },
+  {
+    "M": 24,
+    "variant": "legacy",
+    "remainder_steps": 15,
+    "relative_l2_vs_M1": 0.7182544104048851,
+    "cosine_vs_M1": 0.7045934086632761,
+    "directional_derivative": 0.028284554432307707,
+    "relative_error_vs_archived_directional_fd": 0.43092435071767315,
+    "relative_l2_vs_same_M_archive": 5.447728429640914e-08
+  },
+  {
+    "M": 24,
+    "variant": "alignment_only",
+    "remainder_steps": 15,
+    "relative_l2_vs_M1": 0.25723071340835674,
+    "cosine_vs_M1": 0.99998483981135,
+    "directional_derivative": 0.03655623110837177,
+    "relative_error_vs_archived_directional_fd": 0.264501019342586
+  },
+  {
+    "M": 24,
+    "variant": "fine_derivative_only",
+    "remainder_steps": 15,
+    "relative_l2_vs_M1": 0.8118364283542201,
+    "cosine_vs_M1": 0.7033054202630197,
+    "directional_derivative": 0.037913546829449626,
+    "relative_error_vs_archived_directional_fd": 0.23719228704128423
+  },
+  {
+    "M": 24,
+    "variant": "both_forward_derivative",
+    "remainder_steps": 15,
+    "relative_l2_vs_M1": 2.119987522738261e-07,
+    "cosine_vs_M1": 0.9999999999999776,
+    "directional_derivative": 0.04921397794501713,
+    "relative_error_vs_archived_directional_fd": 0.009831442816130716
+  },
+  {
+    "M": 24,
+    "variant": "aligned_adjoint_derivative",
+    "remainder_steps": 15,
+    "relative_l2_vs_M1": 8.28119384808673e-07,
+    "cosine_vs_M1": 0.9999999999996569,
+    "directional_derivative": 0.049213977321000094,
+    "relative_error_vs_archived_directional_fd": 0.009831455371142064
+  },
+  {
+    "M": 32,
+    "variant": "legacy",
+    "remainder_steps": 23,
+    "relative_l2_vs_M1": 0.9492357121421852,
+    "cosine_vs_M1": 0.39572609324449354,
+    "directional_derivative": 0.012382857699919763,
+    "relative_error_vs_archived_directional_fd": 0.7508610997420064
+  },
+  {
+    "M": 32,
+    "variant": "alignment_only",
+    "remainder_steps": 23,
+    "relative_l2_vs_M1": 0.4283934895147218,
+    "cosine_vs_M1": 0.9999387372442972,
+    "directional_derivative": 0.02813332991209603,
+    "relative_error_vs_archived_directional_fd": 0.433966936812951
+  },
+  {
+    "M": 32,
+    "variant": "fine_derivative_only",
+    "remainder_steps": 23,
+    "relative_l2_vs_M1": 1.1658681925119547,
+    "cosine_vs_M1": 0.3898176176835633,
+    "directional_derivative": 0.021195096980978753,
+    "relative_error_vs_archived_directional_fd": 0.5735618319560611
+  },
+  {
+    "M": 32,
+    "variant": "both_forward_derivative",
+    "remainder_steps": 23,
+    "relative_l2_vs_M1": 2.8339884533123107e-07,
+    "cosine_vs_M1": 0.9999999999999603,
+    "directional_derivative": 0.04921397803506043,
+    "relative_error_vs_archived_directional_fd": 0.009831441004490052
+  },
+  {
+    "M": 32,
+    "variant": "aligned_adjoint_derivative",
+    "remainder_steps": 23,
+    "relative_l2_vs_M1": 1.164758588421274e-06,
+    "cosine_vs_M1": 0.9999999999993221,
+    "directional_derivative": 0.049213977396958396,
+    "relative_error_vs_archived_directional_fd": 0.009831453842886768
+  },
+  {
+    "M": 40,
+    "variant": "legacy",
+    "remainder_steps": 7,
+    "relative_l2_vs_M1": 0.6422381006470828,
+    "cosine_vs_M1": 0.9272057998238837,
+    "directional_derivative": 0.018503417072116012,
+    "relative_error_vs_archived_directional_fd": 0.6277175194872959
+  },
+  {
+    "M": 40,
+    "variant": "alignment_only",
+    "remainder_steps": 7,
+    "relative_l2_vs_M1": 0.614959238043524,
+    "cosine_vs_M1": 0.9997741405205693,
+    "directional_derivative": 0.018952068751614818,
+    "relative_error_vs_archived_directional_fd": 0.6186907997479616
+  },
+  {
+    "M": 40,
+    "variant": "fine_derivative_only",
+    "remainder_steps": 7,
+    "relative_l2_vs_M1": 0.39814056053499575,
+    "cosine_vs_M1": 0.9255139664988802,
+    "directional_derivative": 0.047751094631062176,
+    "relative_error_vs_archived_directional_fd": 0.03926415930829139
+  },
+  {
+    "M": 40,
+    "variant": "both_forward_derivative",
+    "remainder_steps": 7,
+    "relative_l2_vs_M1": 3.361220704509819e-07,
+    "cosine_vs_M1": 0.9999999999999439,
+    "directional_derivative": 0.04921397831689529,
+    "relative_error_vs_archived_directional_fd": 0.009831435334068165
+  },
+  {
+    "M": 40,
+    "variant": "aligned_adjoint_derivative",
+    "remainder_steps": 7,
+    "relative_l2_vs_M1": 1.2804580355566052e-06,
+    "cosine_vs_M1": 0.9999999999991803,
+    "directional_derivative": 0.04921397687189677,
+    "relative_error_vs_archived_directional_fd": 0.009831464406948737
+  },
+  {
+    "M": 48,
+    "variant": "legacy",
+    "remainder_steps": 39,
+    "relative_l2_vs_M1": 1.0904004466734856,
+    "cosine_vs_M1": -0.3495832799937595,
+    "directional_derivative": -0.0035828689287397647,
+    "relative_error_vs_archived_directional_fd": 1.072086108579003
+  },
+  {
+    "M": 48,
+    "variant": "alignment_only",
+    "remainder_steps": 39,
+    "relative_l2_vs_M1": 0.798011877997494,
+    "cosine_vs_M1": 0.9989664740904545,
+    "directional_derivative": 0.009943244759594677,
+    "relative_error_vs_archived_directional_fd": 0.7999452852940783
+  },
+  {
+    "M": 48,
+    "variant": "fine_derivative_only",
+    "remainder_steps": 39,
+    "relative_l2_vs_M1": 1.6807719995604844,
+    "cosine_vs_M1": -0.39704455743898,
+    "directional_derivative": -0.01975542619934344,
+    "relative_error_vs_archived_directional_fd": 1.3974724798351086
+  },
+  {
+    "M": 48,
+    "variant": "both_forward_derivative",
+    "remainder_steps": 39,
+    "relative_l2_vs_M1": 3.3187037616479593e-07,
+    "cosine_vs_M1": 0.9999999999999448,
+    "directional_derivative": 0.04921397675882222,
+    "relative_error_vs_archived_directional_fd": 0.009831466681970356
+  },
+  {
+    "M": 48,
+    "variant": "aligned_adjoint_derivative",
+    "remainder_steps": 39,
+    "relative_l2_vs_M1": 1.2507769301492594e-06,
+    "cosine_vs_M1": 0.9999999999992181,
+    "directional_derivative": 0.04921397849041921,
+    "relative_error_vs_archived_directional_fd": 0.009831431842825755
+  },
+  {
+    "M": 60,
+    "variant": "legacy",
+    "remainder_steps": 27,
+    "relative_l2_vs_M1": 0.999670269217865,
+    "cosine_vs_M1": 0.025677922858519147,
+    "directional_derivative": 3.2381694179052796e-05,
+    "relative_error_vs_archived_directional_fd": 0.9993484912875715
+  },
+  {
+    "M": 60,
+    "variant": "alignment_only",
+    "remainder_steps": 27,
+    "relative_l2_vs_M1": 1.0253929601010552,
+    "cosine_vs_M1": -0.9269479543170326,
+    "directional_derivative": -0.0012471636759416242,
+    "relative_error_vs_archived_directional_fd": 1.0250925104847022
+  },
+  {
+    "M": 60,
+    "variant": "fine_derivative_only",
+    "remainder_steps": 27,
+    "relative_l2_vs_M1": 1.2474071545267122,
+    "cosine_vs_M1": 0.5140412156036597,
+    "directional_derivative": 0.03591621900279554,
+    "relative_error_vs_archived_directional_fd": 0.2773778460007893
+  },
+  {
+    "M": 60,
+    "variant": "both_forward_derivative",
+    "remainder_steps": 27,
+    "relative_l2_vs_M1": 0.8082034377370884,
+    "cosine_vs_M1": 0.795361260480553,
+    "directional_derivative": 0.05205835163124599,
+    "relative_error_vs_archived_directional_fd": 0.047396391766384445
+  },
+  {
+    "M": 60,
+    "variant": "aligned_adjoint_derivative",
+    "remainder_steps": 27,
+    "relative_l2_vs_M1": 0.8076026653452166,
+    "cosine_vs_M1": 0.7578015574764295,
+    "directional_derivative": 0.04601036904738487,
+    "relative_error_vs_archived_directional_fd": 0.07428696810396447
+  }
+]

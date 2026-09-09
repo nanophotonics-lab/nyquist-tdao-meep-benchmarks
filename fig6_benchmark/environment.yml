@@ -1,0 +1,13 @@
+name: fig6-meep
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9.23
+  - pymeep=1.30.1=nompi_py39h9d793ab_103
+  - autograd=1.8.0
+  - h5py=3.14.0=nompi_py39h63168ba_100
+  - matplotlib=3.9.4
+  - nlopt=2.10.0
+  - numpy=2.0.2
+  - scipy=1.13.1
+  - cxx-compiler

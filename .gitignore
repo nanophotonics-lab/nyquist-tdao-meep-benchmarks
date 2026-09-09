@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.dll
+*.o
+.DS_Store
+/trajectories/
+/new_measurements/
+/validation_runs/
+/*.png
+/*_matlab.csv
